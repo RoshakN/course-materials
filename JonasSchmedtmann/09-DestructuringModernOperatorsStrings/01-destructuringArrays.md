@@ -1,4 +1,4 @@
-# De-structuring
+# De-structuring Arrays
 
 Destructuring is basically a way for unpacking values from an array into several values, or in other words, to break a complex structure down to smaller data structures like variables.<br>
 
