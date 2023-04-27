@@ -45,7 +45,7 @@ const originalObject {
     days: {
         sat: 8to10,
         fri: 10to12
-    };
+    }
 };
 ```
 In order to destructure nested objects (objects within other objects), we use the syntax below.
