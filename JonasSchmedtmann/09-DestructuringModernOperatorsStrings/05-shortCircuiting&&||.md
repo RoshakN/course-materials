@@ -55,3 +55,18 @@ Instead we can write:
 restaurant.orderPizza && restaurant.orderPizza('mushrooms', 'spinach');
 ```
 The first part checks if this method exists and the second part runs the method if it does.
+
+## Nullish Coalescing Operator
+We can also use the nullish coalescing operator or `??` instead of OR operator. The benefit of it is that `??` doesn't consider `0` a falsy value. This could come in handy if the default value of a variable is `0`, because then the OR operator would consider it falsy and short circuit.
+```js
+restaurant.numGuests = 0;
+const numberOfGuests = restaurant.numGuests || 10;
+console.log(numberOfGuests);
+```
+The return of this `||` operation will be 10.
+```js
+restaurant.numGuests = 0;
+const numberOfGuests = restaurant.numGuests ?? 10;
+console.log(numberOfGuests);
+```
+This operation will return `0`.
