@@ -15,4 +15,6 @@ A repo for all the notes I write down while studying.
 9. [Destructuring, Modern Operators, and Strings](./JonasSchmedtmann/09-DestructuringModernOperatorsStrings/)
     + [Destructuring Arrays](./JonasSchmedtmann/09-DestructuringModernOperatorsStrings/01-Destructuring.md)
     + [Destructuring Objects](./JonasSchmedtmann/09-DestructuringModernOperatorsStrings/02-destructuringObjects.md)
+    + [Spread Operator](./JonasSchmedtmann/09-DestructuringModernOperatorsStrings/03-spreadOperator.md)
+    + [Rest Pattern](./JonasSchmedtmann/09-DestructuringModernOperatorsStrings/04-restPattern.md)
     + ...
