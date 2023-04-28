@@ -1,5 +1,5 @@
 # The Spread Operator
-The spread operator basically unpacks all the elements of and array. This is specially usefull when we want to add some data to the beginning of an array and store it in a new array.
+The spread operator basically unpacks all the elements of an array. This is specially usefull when we want to add some data to the beginning of an array and store it in a new array.
 
 Syntax:
 ```js
