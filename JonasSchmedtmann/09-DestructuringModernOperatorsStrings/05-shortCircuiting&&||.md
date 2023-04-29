@@ -70,3 +70,36 @@ const numberOfGuests = restaurant.numGuests ?? 10;
 console.log(numberOfGuests);
 ```
 This operation will return `0`.
+
+## Logical Assignment
+We've already seen assignment shorthands like `sum = sum + 1` which could also be written as `sum += 1`.
+
+The same can be done for logical operators. We will discuss this in this note.
+### OR Assignment Operator
+Imagine we want to check if an object property exists or not, and if it doesn't, give it a value.
+```js
+const restaurant = {
+    name: 'Capri',
+    owner: 'Giovanni'
+}
+restaurant.numGuests = restaurant.numGuests || 10;
+```
+This code uses short circuiting to check if `restaurant.numGuests` exists or not, and then assign the value of `10` to it if it doesn't.
+
+The code can also be written as:
+```js
+restaurant.numGuests ||= 10;
+```
+### Nullish Assignment Operator
+If the `restaurant.numGuests` was already set to `0` like before, we can also use `??` operator to solve the problem. This is known as **Nullish Assignment Operator**.
+```js
+restaurant.numGuests ??= 10;
+```
+### AND Assignment Operator
+We can use AND assignment operator when we want to change the value of something if it **does** exist.
+
+For example the `owner` property does exist in our object, so we can check for it and then change it using the AND Assignment Operator.
+```js
+restaurant.owner = restaurant.owner && '<Anonymous>';
+```
+This can change to `restaurant.owner &&= '<Anonymous>'`.
