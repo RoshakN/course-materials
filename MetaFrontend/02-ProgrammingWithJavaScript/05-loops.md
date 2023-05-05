@@ -44,12 +44,17 @@ while (counter > 0) {
 
 ## Nested Loops
 
-text
+Nested loops are used when we want to perform 2 repetitive operations at the same time.
 
-```
+For example, if we want to count the days of 2 weeks, we can first make a for loop that counts the 2 weeks and inside that loop, make another for loop that counts the 7 or 5 days.
 
-```
+Nested loops make the code slower overall, so it's better to not use them much.
 
-```
-
+```js
+for (let i = 1; i < 3; i++) {
+  console.log(`These are the days of week ${i}:`);
+  for (let j = 1; j < 8; j++) {
+    console.log(`Week ${i}, Day ${j}`);
+  }
+}
 ```
