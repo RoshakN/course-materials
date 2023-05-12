@@ -12,3 +12,9 @@ No matter how you write the code, the result can still be the same, that is why 
 There is a clear distinction between data and functions in functional programming as data can exist outside of functions.
 
 In Functional Programming `Data` and `Function` are separated.
+
+One of the main advantages of FP is that the return of a fucntion can be used inside another function.
+
+All functions as a default return `undefined` value if not specifically told to return something. For example the `console.log()` method doesn't have a set value and just logs something to the console.
+
+But if we do specify a return value, that value can be used in other functions.
