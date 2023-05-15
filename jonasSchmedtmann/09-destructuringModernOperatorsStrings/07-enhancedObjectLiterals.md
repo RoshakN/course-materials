@@ -72,11 +72,11 @@ Now we can write:
 ```js
 const weekDays = [mon, tue];
 const week = {
-  weekDays[0]: {
+  [weekDays[0]]: {
     open: 10,
     close: 23,
   },
-  weekDays[1]: {
+  [weekDays[1]]: {
     open: 11,
     close: 24,
   },
