@@ -11,3 +11,13 @@ console.log(restaurant.openingHours?.mon?.open);
 Here we are checking 2 things. If `openingHours` object exists, and if `mon` object exists after that. If they both do exist, then `open` property will be checked.
 
 Note that optional chaining can be used for methods and arrays as well(chack Jonas videos).
+
+## Using Optional Chaining with Logical Operators
+
+These two concepts were introduced together because they were meant to be used together. Like so:
+
+```js
+console.log(restaurant.order?.(0, 1)) ?? "Method does not exist";
+```
+
+This check if the `order` methods exists or not. If it does, it will run with `0, 1` parameters. If it doesn't exist, the string "Method does not exist" will print to the console.
