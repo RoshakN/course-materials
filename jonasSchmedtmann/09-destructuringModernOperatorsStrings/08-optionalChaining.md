@@ -21,3 +21,5 @@ console.log(restaurant.order?.(0, 1)) ?? "Method does not exist";
 ```
 
 This checks if the `order` methods exists or not. If it does, it will run with `0, 1` parameters. If it doesn't exist, the string "Method does not exist" will print to the console.
+
+> Nullish values means only `undefined` and `null`
