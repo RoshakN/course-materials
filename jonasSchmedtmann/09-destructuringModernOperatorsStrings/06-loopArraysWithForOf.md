@@ -1,6 +1,6 @@
 # Loop Arrays with For-Of
 
-Until now we used the `for` or `while` loop to work with all the components of an array, but with those methods we have to make a `counter` variable and update oit in every loop and that's a lot of work. The `for of` loop makes this process easy.
+Until now we used the `for` or `while` loop to work with all the components of an array, but with those methods we have to make a `counter` variable and update it in every loop and that's a lot of work. The `for of` loop makes this process easy.
 
 The syntax is quite easy. Note that the `item` variable can be named anything and is just representing the value in each iteration.
 
@@ -30,4 +30,4 @@ for (const item of ourArray.entries()) {
 }
 ```
 
-This way, all the items in our array will be shown an an independant array consisting of the index and the data.
+This way, all the items in our array will be shown as an independant array consisting of the index and the data.
