@@ -27,7 +27,7 @@ A repo for all the notes I take while studying Web Development.
    - [Constructor](./metaFrontend/02-programmingWithJavaScript/week3/06-constructor.md)
    - ...
 
-## Jonas Schmedtmann JS Course
+## Jonas Schmedtmann JavaScript Course
 
 9. [Destructuring, Modern Operators, and Strings](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/)
    - [Destructuring Arrays](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/01-destructuringArrays.md)
@@ -35,4 +35,9 @@ A repo for all the notes I take while studying Web Development.
    - [Spread Operator](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/03-spreadOperator.md)
    - [Rest Pattern](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/04-restPattern.md)
    - [Short Circuiting with && and ||](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/05-shortCircuiting%26%26%7C%7C.md)
+   - [Loop Arrays With For-Of](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/06-loopArraysWithForOf.md)
+   - [Enhanced Object Literals](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/07-enhancedObjectLiterals.md)
+   - [Optional Chaining](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/08-optionalChaining.md)
    - ...
+
+## Jonas Schmedtmann React Course
