@@ -38,6 +38,7 @@ A repo for all the notes I take while studying Web Development.
    - [Loop Arrays With For-Of](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/06-loopArraysWithForOf.md)
    - [Enhanced Object Literals](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/07-enhancedObjectLiterals.md)
    - [Optional Chaining](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/08-optionalChaining.md)
+   - [Sets](./jonasSchmedtmann/09-destructuringModernOperatorsStrings/09-sets.md)
    - ...
 
 ## Jonas Schmedtmann React Course
