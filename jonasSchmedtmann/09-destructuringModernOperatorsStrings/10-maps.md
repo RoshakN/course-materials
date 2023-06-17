@@ -31,3 +31,12 @@ size: (...)
 __proto__: Map
 */
 ```
+
+Calling the set on a map returns the updated map. This means that we can chain `set` methods one after eachother.
+
+```js
+restaurant
+  .set("name", "Classico Italiano")
+  .set(1, "Firenze, Italy")
+  .set(2, "Lisbon, Portugal");
+```
