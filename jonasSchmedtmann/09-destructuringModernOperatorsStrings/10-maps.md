@@ -12,6 +12,8 @@ Creating maps in JavaScript is relatively easy and like creating sets. The synta
 const restaurant = new Map();
 ```
 
+## How To Add Data To A Map
+
 The easiest way to create a map is to actually make an empty map, like above, and then add properties to it using the `set` method.
 The `set` method takes two arguements. The first arguement is the key or the name of the property, and the second is the value.
 
@@ -39,4 +41,45 @@ restaurant
   .set("name", "Classico Italiano")
   .set(1, "Firenze, Italy")
   .set(2, "Lisbon, Portugal");
+```
+
+## How To Read Data From A Map
+
+To read data from a map, the `get` method is used.
+
+```js
+console.log(restaurant.get("name"));
+// Classico Italiano
+console.log(restaurant.get(1));
+// Firenze, Italy
+```
+
+## How To Check If Map Has A Key
+
+To check if a certain key exists inside a map element, we can use the `has` method.
+
+```js
+console.log(restaurant.has("name"));
+// true
+```
+
+## How To Delete From Map
+
+The method used for deleting a `key:value` pair from a map is `delete`.
+
+```js
+restaurant.delete(2);
+console.log(restaurant);
+/* Map(2) {"name" => "Classico Italiano", 1 => "Firenze, Italy"}
+[[Entries]]
+size: (...)
+__proto__: Map
+*/
+```
+
+Maps also have the `size` and `clear` method that we saw in sets.
+
+```js
+console.log(restaurant.size);
+restaurant.clear():
 ```
