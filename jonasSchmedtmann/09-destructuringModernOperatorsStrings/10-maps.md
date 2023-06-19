@@ -4,7 +4,7 @@ Map in JavaScript is a data structure we can use to map values to keys.
 
 Maps are somewhat like Objects in JS, but with a big difference. Objects can only have `string` keys, but the key in a map can be any data type, including `string`, `object`, or even other `map`s.
 
-## How To Create A Map
+### How To Create A Map
 
 Creating maps in JavaScript is relatively easy and like creating sets. The syntax is:
 
@@ -12,7 +12,7 @@ Creating maps in JavaScript is relatively easy and like creating sets. The synta
 const restaurant = new Map();
 ```
 
-## How To Add Data To A Map
+### How To Add Data To A Map
 
 The easiest way to create a map is to actually make an empty map, like above, and then add properties to it using the `set` method.
 The `set` method takes two arguements. The first arguement is the key or the name of the property, and the second is the value.
@@ -43,7 +43,23 @@ restaurant
   .set(2, "Lisbon, Portugal");
 ```
 
-## How To Read Data From A Map
+Aside from the `set` method, there's another way to populate a Map. In this method, when declaring the new map we simply give it an arguement of the array type.
+
+Inside that array we can have multiple nested arrays, each of which represent a key:value pair. The first element in each nested array is the key and the second is the value attributed to it.
+
+```js
+const question = new Map([
+  ["question", "What is the best programming language?"],
+  [1, "C"],
+  [2, "Java"],
+  [3, "JavaScript"],
+  ["correct", 3],
+  [true, "That is correct!"],
+  [false, "Try again!"],
+]);
+```
+
+### How To Read Data From A Map
 
 To read data from a map, the `get` method is used.
 
@@ -54,7 +70,7 @@ console.log(restaurant.get(1));
 // Firenze, Italy
 ```
 
-## How To Check If Map Has A Key
+### How To Check If Map Has A Key
 
 To check if a certain key exists inside a map element, we can use the `has` method.
 
@@ -63,7 +79,7 @@ console.log(restaurant.has("name"));
 // true
 ```
 
-## How To Delete From Map
+### How To Delete From Map
 
 The method used for deleting a `key:value` pair from a map is `delete`.
 
